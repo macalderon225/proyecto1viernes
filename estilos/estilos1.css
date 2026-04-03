@@ -1,0 +1,81 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 2%;
+}
+
+footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 2%;
+  background: #27273b;
+  color: white;
+}
+
+.menu {
+  list-style: none;       /* saca los puntitos */
+  margin: 0;
+  padding: 0;
+  display: flex;          /* esto los pone en horizontal */
+  justify-content: center; /* Centra el menú */
+  background: #27273b;
+}
+
+.menu li {
+  margin: 0; /*espacio afuera del elemento*/
+  display: block; /*“¿Este elemento ocupa toda la línea? ¿se pone al lado de otros? ¿se organiza en filas?” block: Ocupa todo el ancho disponible*/
+  padding: 15px 20px; /*espacio dentro del elemento*/
+  text-decoration: none; /* Quita subrayado */
+  color: white; /* Color texto */
+  font-family: Arial, sans-serif;
+  text-decoration: none !important;
+}
+
+.imagen-bio {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  background-color: #27273b;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu a {
+  display: block;
+  padding: 14px 22px;
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.texto{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
